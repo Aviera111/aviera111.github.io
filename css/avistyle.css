@@ -278,10 +278,6 @@ h1{
 	font-family: 'Pacifico', cursive;
 	font-family: 'Gloria Hallelujah', cursive;
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
-		}
-/*rotate transition*/
-.footer:hover { transform: scale(5.5); }
-        
 }
 
 /* For desktop: */
