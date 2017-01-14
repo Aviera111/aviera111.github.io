@@ -272,11 +272,6 @@ h1{
 	 height:50px;
 }
 
-body > .footer
-{
-            width:483px;
-            height:298px;
-            transition:all .3s ease-in-out;
 			
 }
 	#footer{
@@ -285,7 +280,7 @@ body > .footer
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 		}
 /*rotate transition*/
-.footer:hover { transform: scale(1.1); }
+.footer:hover { transform: scale(5.5); }
         
 }
 
