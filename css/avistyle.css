@@ -79,13 +79,14 @@ color:#56485b;
 body > .nav-navbar
 {
             width:483px;
-            height:298px;
+            height:70px;
             transition:all 0.3s ease;
 }
 /*Grow transition*/
 .nav-navbar li a:hover:not(.active)
 {
-
+	
+box-shadow: inset 0 0 0 25px grey;
        -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
@@ -105,7 +106,6 @@ body#home{
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	background
 	
 }
 body#contact{	
@@ -130,15 +130,18 @@ body#resume{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 /*home*/
 #home_content{
 font-family: 'Finger Paint', cursive;
 	font-size:40px;
 	margin-left:15px;
+	color:white;
+	text-shadow:2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 }
 /*bio*/
 .heading{
-	font-size:40px;
+	font-size:32px;
 	text-align:center;
 	color:#27354c;
 	text-shadow: 1px 1px 1px black, 0 0 25px black;
@@ -147,15 +150,23 @@ font-family: 'Finger Paint', cursive;
 	font-family: 'Finger Paint', cursive;
 
 }
-#first-p,#second-p{
+#first-p{
 	font-size:35px;
 	text-align:center;
 	padding: 10%;
 	font-family: 'Satisfy', cursive;
+	color:black;
 }
 
 /*contact*/
 /*form*/
+
+form#content{
+		margin-top:50px;
+		font-family: 'Lobster', cursive;
+		font-size:25px;
+		
+	}
 
 input[type=text] {
     width: 100%;
@@ -188,10 +199,22 @@ input[type=textare]:focus {
 
 .button{
    
-    display: inline-block;
-    font-size: 16px;
     margin: 20px;
 	margin-left:230px;
+	border: solid #f5f5f5;
+    width: 150px;
+    text-align: center;
+	font-family: 'Satisfy', cursive;
+	border-radius: 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 2px;
+    font-size: 1em;
+	letter-spacing:2px;
+    text-align: center;
+    text-decoration: none; 
+	
+  
 }
 .image_note { 
    position: relative; 
@@ -220,23 +243,23 @@ h1{
 	#name{
 		font-size:16px;
 		font-weight:bold;
+		color:white;
+		text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 	}
+	p{color:#c2c4c6;}
 
-	form#content{
-		margin-top:50px;
-		font-family: 'Lobster', cursive;
-		font-size:25px;
-		
-	}
+	
 	#resume-content{
 		font-size:25px;
 		font-family: 'Finger Paint', cursive;
 		text-align:center;
+		
 	}
 	#quote{
 		font-family: 'Satisfy', cursive;
 		font-size:25px;
 		text-align:center;
+		color:white;
 	}
 /*footer*/
 .footer {
@@ -267,14 +290,13 @@ body > .footer
 	font-family: 'Gloria Hallelujah', cursive;
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 		}
-		/*rotate transition*/
+/*rotate transition*/
 .footer:hover{
 	    -webkit-transform: rotateZ(-30deg);
         -ms-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
-
-
 }
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
