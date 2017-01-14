@@ -229,6 +229,7 @@ h1{
 	font-family: 'Lobster', cursive;
 	color:black;
 }
+
 #note { 
    position: absolute; 
    top: 40px; 
@@ -318,4 +319,3 @@ body > .footer
     [class*="col-"] {
         width: 100%;
     }
-}
