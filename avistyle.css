@@ -217,11 +217,7 @@ h1{
 		font-size:16px;
 		font-weight:bold;
 	}
-	#footer{
-	font-family: font-family: 'Pacifico', cursive;
-	font-family: 'Gloria Hallelujah', cursive;
-	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
-		}
+
 	form#content{
 		margin-top:50px;
 		font-family: 'Lobster', cursive;
@@ -232,6 +228,10 @@ h1{
 		font-size:25px;
 		font-family: 'Finger Paint', cursive;
 		text-align:center;
+	}
+	#quote{
+		font-family: 'Dawning of a New Day', cursive;
+		font-size:25px;
 	}
 /*footer*/
 .footer {
@@ -249,7 +249,7 @@ h1{
 	 width:50px;
 	 height:50px;
 }
-/*rotate and zoom transition*/
+
 body > .footer
 {
             width:483px;
@@ -257,6 +257,8 @@ body > .footer
             transition:all 0.3s ease;
 			
 }
+
+/*rotate and zoom transition*/
 .footer:hover{
 	    -webkit-transform: rotateZ(-30deg);
         -ms-transform: rotateZ(-30deg);
@@ -264,6 +266,11 @@ body > .footer
 
 
 }
+	#footer{
+	font-family: font-family: 'Pacifico', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
+		}
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
