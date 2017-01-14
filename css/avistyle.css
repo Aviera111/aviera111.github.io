@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: none;
 }
 
 li 
@@ -41,8 +40,7 @@ html {
 /*navbar*/
 
 .navbar{
-    background-color:;
-    color: #ffffff;
+    background-color: #ffffff;
     padding: 25px;
 }
 
@@ -102,7 +100,7 @@ box-shadow: inset 0 0 0 25px grey;
 
 body#home{
 	background-image: url("../images/sun.jpg");
-	background-repeat: no-repeat center center fixed;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -193,7 +191,7 @@ input[type=textarea] {
 input[type=text]:focus {
     border: 3px solid #555;
 }
-input[type=textare]:focus {
+input[type=textarea]:focus {
     border: 3px solid #555;
 }
 
@@ -271,7 +269,6 @@ h1{
     text-align: center;
     font-size: 12px;
 	bottom: 0px;
-	padding:;
 	position: relative;
 	width: 100%;
 	left:0;
@@ -289,14 +286,12 @@ body > .footer
 			
 }
 	#footer{
-	font-family: font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', cursive;
 	font-family: 'Gloria Hallelujah', cursive;
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 		}
 /*rotate transition*/
 .footer:hover{
-	    -webkit-transform: rotateZ(-30deg);
-        -ms-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
 }
 
