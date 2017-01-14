@@ -48,6 +48,10 @@ height:90px;
 max-width:100%;
 
 }
+.navbar img:hover{
+transform: rotate(0deg) translate(50%);
+transition: all 2s ease;
+}
 
 
 .navmenu ul {
@@ -281,8 +285,8 @@ body > .footer
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black;
 		}
 /*rotate transition*/
-.footer:hover{
-        transform: rotateZ(-30deg);
+.footer:hover{ transform: scale(1.3);
+        
 }
 
 /* For desktop: */
