@@ -173,13 +173,13 @@ input[type=text] {
 {
 	width:100%;
 	border:1px solid #CCC;
-	background:#FFF;
+	background:#f5f5f5;
 	margin:0 0 5px;
 	padding:10px;	
 	height:100px;
 	max-width:100%;
 	resize:none;
-	font-family: "Lucida Sans", sans-serif;
+	
 }
 
 input[type=text]:focus {
